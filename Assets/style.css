@@ -1,0 +1,28 @@
+/* Schedule Page */
+h1 {
+  text-align: center;
+}
+
+p {
+  padding: 0px 40px;
+  font-size: 16px;
+}
+  /* Tab Style */
+ul li {
+  display: inline-block;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+li a {
+  color: maroon;
+  font-size: 20px;
+}
+
+.tabcontent {
+    display: none;
+    padding-left: 45px;
+}
+.tabcontent:target {
+    display: block;
+}
